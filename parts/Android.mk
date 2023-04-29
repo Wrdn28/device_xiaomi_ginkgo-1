@@ -7,6 +7,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
+LOCAL_OVERRIDES_PACKAGES := AudioFX
 
 LOCAL_MODULE_TAGS := optional
 
