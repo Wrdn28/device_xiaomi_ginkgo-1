@@ -853,4 +853,8 @@
     
     <!-- Default values for LiveDisplay -->
     <bool name="config_enableLiveDisplay">false</bool>
+
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">true</bool>
+    <bool name="config_pocketUseLightSensor">true</bool>
 </resources>
