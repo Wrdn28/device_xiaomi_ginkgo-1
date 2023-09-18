@@ -24,6 +24,7 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
 # Inherit some common LineageOS stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+PRODUCT_NO_CAMERA := true
 
 # Device identifier
 PRODUCT_NAME := lineage_ginkgo
