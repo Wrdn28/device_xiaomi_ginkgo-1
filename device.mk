@@ -410,6 +410,12 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
 
+# SettingsIntellegence
+ifneq ($(AFTERLIFE_GAPPS),true)
+    PRODUCT_COPY_FILES += \
+        $(LOCAL_PATH)/prebuilts/SettingsIntelligence/config/permissions/privapp-permissions-beryllium-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-beryllium-product.xml
+endif
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
