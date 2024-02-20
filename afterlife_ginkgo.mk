@@ -26,7 +26,7 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 # Inherit some common Afterlife stuff
 $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-AFTERLIFE_GAPPS := false
+AFTERLIFE_CORE := true
 AFTERLIFE_MAINTAINER := Hirokixd
 TARGET_SUPPORTS_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
